@@ -1,6 +1,6 @@
 export class Repo {
-  repo_status: string
-  repo_deployment: string
-  public_repo: string
-
+  id: string;
+  name: string;
+  url: string;
+  description: string;
 }
