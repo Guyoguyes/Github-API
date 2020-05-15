@@ -24,14 +24,34 @@
 
       </div>
       <div class="col-md-6">
+            <div class="inline-nav">
+              <ul class="nav justify-content-center grey lighten-4 py-4">
+                <li class="nav-item">
+                  <a>Profile</a>
+                </li>
+
+                <li class="nav-item">
+                  <a >Repository</a>
+                </li>
+
+              </ul>
+            </div>
+
+
           <div class="card profile-info">
             <div class="card-body">
-              <ul class="list-group list-group-flush">
-                <li>{{}}</li>
-                <li>Dapibus ac facilisis in</li>
-                <li>Morbi leo risus</li>
-                <li>Porta ac consectetur ac</li>
-                <li>Vestibulum at eros</li>
+              <ul class=" card-text list-group list-group-flush">
+                <li class="list-group-item animated fadeInRight"> <i class="fa fa-user-friends"></i> Followers:
+                  {{users?.followers}}</li>
+
+                <li class="list-group-item animated fadeInRight"> <i class="fa fa-users f0c0"></i> Following:
+                  {{users?.following}}</li>
+
+                <li class="list-group-item animated fadeInRight"> <i class="fa fa-folder-open"></i> Repos:
+                  {{users?.public_repos}}</li>
+
+                <li class="list-group-item animated fadeInRight"> <i class="fa fa-clock pr-1"></i> Joined on:
+                  {{users?.created_at|date}}</li>
               </ul>
             </div>
           </div>

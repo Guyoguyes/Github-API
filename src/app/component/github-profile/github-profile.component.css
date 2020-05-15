@@ -1,10 +1,10 @@
 .profile{
   background-image: url("src/assets/image/photo-1587726763541-d8e58f4fb2fb.jpeg");
   background-size: cover;
-  height: 1350px;
+  height: 1450px;
 }
 .avatar{
-  margin-top: 30px;
+  margin-top: 170px;
   padding-left: 250px;
   position: relative;
 }
@@ -21,4 +21,21 @@
   margin-top: 150px;
   width: 800px;
   background-color: cadetblue;
+}
+.profile-info ul{
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.nav{
+  margin-top: 200px;
+  background-color: cadetblue;
+  width: 800px;
+  padding-left: -100px;
+}
+.inline-nav ul li a {
+  padding: 25px;
+  font-size: 25px;
 }
