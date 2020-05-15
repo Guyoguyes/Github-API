@@ -9,14 +9,14 @@ import {GithubService} from "../../services/github.service";
 })
 export class GithubProfileComponent implements OnInit {
 
-  user: User;
+  users: User;
 
   constructor(private githubService: GithubService) { }
 
   searchUser(search){
     this.githubService.getUser(search).then(
-      (success) =>{
-        console.log(success)
+      (success) => {
+        this.users = this.githubService.user
       },
       (error) => {
         console.log(error)
@@ -25,7 +25,7 @@ export class GithubProfileComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.githubService.getUser('Guyoguyes')
+    this.searchUser('Guyoguyes')
   }
 
 }

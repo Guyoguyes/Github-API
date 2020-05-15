@@ -1,0 +1,24 @@
+.profile{
+  background-image: url("src/assets/image/photo-1587726763541-d8e58f4fb2fb.jpeg");
+  background-size: cover;
+  height: 1350px;
+}
+.avatar{
+  margin-top: 30px;
+  padding-left: 250px;
+  position: relative;
+}
+.avatar img{
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.info{
+  width: 400px;
+  margin-left: 250px;
+  padding-top: 40px;
+}
+.profile-info{
+  margin-top: 150px;
+  width: 800px;
+  background-color: cadetblue;
+}

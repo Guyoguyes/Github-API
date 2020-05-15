@@ -1,4 +1,42 @@
 <div class="container-full">
-  <app-navbar (searchuser)="searchUser($event)"></app-navbar>
+  <app-navbar  (searchuser)="searchUser($event)"></app-navbar>
 </div>
-<div class="container"></div>
+<div class="container-full" >
+  <div class="profile">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="avatar">
+          <img src="{{users?.avatar_url}}" alt="">
+        </div>
+        <div class="info">
+          <div class="card alert-dark">
+            <div class="card-body">
+              <div class="user_name">
+                <h3>{{users?.login}}</h3>
+                <h5>{{users?.name}}</h5>
+              </div>
+              <div class="profile-detail">
+                <p>joined on: <i>{{users?.created_at | date}}</i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-6">
+          <div class="card profile-info">
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <li>{{}}</li>
+                <li>Dapibus ac facilisis in</li>
+                <li>Morbi leo risus</li>
+                <li>Porta ac consectetur ac</li>
+                <li>Vestibulum at eros</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+</div>
