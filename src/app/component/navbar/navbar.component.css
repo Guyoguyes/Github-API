@@ -3,5 +3,8 @@
 /*}*/
 .fab{
   margin: 5px;
+
+}
+.fab a{
   font-family: 'Roboto', sans-serif;
 }
