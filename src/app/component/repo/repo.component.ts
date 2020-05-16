@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
+import {Repo} from "../../model/repo";
 
 @Component({
   selector: 'app-repo',
@@ -7,7 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RepoComponent implements OnInit {
 
+  @Input() repo: Repo
+
+
+
+
+
   constructor() { }
+
+
 
   ngOnInit() {
   }

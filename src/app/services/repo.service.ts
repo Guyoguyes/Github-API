@@ -10,7 +10,7 @@ export class RepoService {
 
   repo: Repo
   api_key = '?access_token='+environment.API_KEY
-  repo_url = '?repo'
+  repo_url = '/repos?'
 
 
   constructor(private http: HttpClient) { }

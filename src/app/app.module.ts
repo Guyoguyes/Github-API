@@ -11,12 +11,14 @@ import { RepoComponent } from './component/repo/repo.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     GithubProfileComponent,
     RepoComponent,
+
 
 
   ],
