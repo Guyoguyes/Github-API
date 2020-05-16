@@ -11,6 +11,7 @@ import { NavbarComponent } from './component/navbar/navbar.component';
 import { GithubProfileComponent } from './component/github-profile/github-profile.component';
 import { RepoComponent } from './component/repo/repo.component';
 import { DateCountPipe } from './pipes/date-count.pipe';
+import { DirectiveDirective } from './directive/directive.directive';
 
 
 
@@ -22,6 +23,7 @@ import { DateCountPipe } from './pipes/date-count.pipe';
     GithubProfileComponent,
     RepoComponent,
     DateCountPipe,
+    DirectiveDirective,
 
 
 
