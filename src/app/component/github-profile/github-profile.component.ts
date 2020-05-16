@@ -3,6 +3,8 @@ import {User} from "../../model/user";
 import {GithubService} from "../../services/github.service";
 import {Repo} from "../../model/repo";
 import {RepoService} from "../../services/repo.service";
+import {NgxPaginationModule} from 'ngx-pagination';
+
 
 @Component({
   selector: 'app-github-profile',
@@ -12,10 +14,18 @@ import {RepoService} from "../../services/repo.service";
 export class GithubProfileComponent implements OnInit {
 
   users: User;
-  repos: Repo
+  repos: Repo;
+  page = 1;
 
   constructor(private githubService: GithubService,
               private repoService: RepoService) { }
+
+
+  isDisabled = true;
+
+  toggleDisabled() {
+    this.isDisabled = !this.isDisabled;
+  }
 
   searchUser(search){
     this.githubService.getUser(search).then(

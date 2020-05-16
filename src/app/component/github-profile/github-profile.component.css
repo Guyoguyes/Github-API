@@ -1,7 +1,7 @@
 .profile{
   background-image: url("src/assets/image/photo-1587726763541-d8e58f4fb2fb.jpeg");
   background-size: cover;
-  height: 1450px;
+  height: auto;
 }
 .avatar{
   margin-top: 170px;
@@ -27,6 +27,61 @@
   font-size: 20px;
   padding: 20px;
   margin: 10px;
+}
+
+.card1 {
+  background-color: rgb(55, 187, 173);
+  height: 20%;
+  position: relative;
+  top: 30px;
+  margin-top: 250px;
+  height: auto;
+}
+
+.repo {
+  position: relative;
+  top: 40px;
+  background-color: rgb(55, 187, 173);
+  width: 20%;
+  margin: 5px;
+  width: 200px;
+  margin-left: 300px;
+}
+
+.h3{
+  color: #ffffff;
+  font-size: 35px;
+  font-family: 'Dosis', sans-serif;
+  margin-left: -100px;
+}
+.btn {
+  width: 140px;
+  height: 60px;
+  font-size: 15px;
+  padding-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  background-color: #FFA500;
+  border: none;
+  border-radius: 45px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:hover {
+  background-color: #FF8C00;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-10px);
+}
+.icons{
+  width: 40%;
+  margin-left: 30%;
+}
+p .text-info{
+  color: black;
 }
 
 
