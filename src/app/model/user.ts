@@ -3,6 +3,7 @@ export class User {
   created_at: any;
   avatar_url: any;
   status: any;
+  Stars: any;
   followers_url: any;
   followers: number;
   following_url: any;
