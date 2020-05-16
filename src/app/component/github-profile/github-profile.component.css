@@ -5,7 +5,7 @@
 }
 .avatar{
   margin-top: 170px;
-  padding-left: 250px;
+  padding-left: 450px;
   position: relative;
 }
 .avatar img{
@@ -14,7 +14,7 @@
 }
 .info{
   width: 400px;
-  margin-left: 250px;
+  margin-left: 500px;
   padding-top: 40px;
 }
 .profile-info{

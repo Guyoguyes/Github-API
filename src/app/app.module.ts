@@ -10,6 +10,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './component/navbar/navbar.component';
 import { GithubProfileComponent } from './component/github-profile/github-profile.component';
 import { RepoComponent } from './component/repo/repo.component';
+import { DateCountPipe } from './pipes/date-count.pipe';
 
 
 
@@ -20,6 +21,7 @@ import { RepoComponent } from './component/repo/repo.component';
     NavbarComponent,
     GithubProfileComponent,
     RepoComponent,
+    DateCountPipe,
 
 
 
