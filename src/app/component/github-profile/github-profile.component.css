@@ -29,13 +29,5 @@
   margin: 10px;
 }
 
-.nav{
-  margin-top: 200px;
-  background-color: cadetblue;
-  width: 800px;
-  padding-left: -100px;
-}
-.inline-nav ul li a {
-  padding: 25px;
-  font-size: 25px;
-}
+
+

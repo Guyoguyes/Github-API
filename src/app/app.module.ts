@@ -9,12 +9,16 @@ import { NavbarComponent } from './component/navbar/navbar.component';
 import { GithubProfileComponent } from './component/github-profile/github-profile.component';
 import { RepoComponent } from './component/repo/repo.component';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     GithubProfileComponent,
-    RepoComponent
+    RepoComponent,
+
+
   ],
   imports: [
     BrowserModule,

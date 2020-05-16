@@ -4,6 +4,7 @@ import {GithubProfileComponent} from "./component/github-profile/github-profile.
 import {RepoComponent} from "./component/repo/repo.component";
 
 
+
 const routes: Routes = [
   {path: 'profile', component: GithubProfileComponent},
   {path: 'repo', component: RepoComponent},
