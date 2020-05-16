@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule} from "@angular/common/http";
 import { FormsModule} from "@angular/forms";
 import { NgxPaginationModule } from 'ngx-pagination';
+import { NgProgressModule} from "@ngx-progressbar/core";
+import { NgProgressHttpClientModule} from "@ngx-progressbar/http-client";
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -33,7 +35,9 @@ import { DirectiveDirective } from './directive/directive.directive';
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    NgxPaginationModule
+    NgxPaginationModule,
+    NgProgressModule.forRoot(),
+    NgProgressHttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
