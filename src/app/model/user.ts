@@ -5,7 +5,7 @@ export class User {
   status: any;
   followers: number;
   following: number;
-  repos_url: any;
+  html_url: any;
   login: any;
   public_repos: any;
 }

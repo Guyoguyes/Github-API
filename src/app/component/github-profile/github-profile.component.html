@@ -22,41 +22,10 @@
             </div>
           </div>
         </div>
-
       </div>
       <div class="col-md-6">
-
-
-<!--        <div class="card profile-info">-->
-<!--          <div class="card-body">-->
-<!--            <ul class=" card-text list-group list-group-flush">-->
-<!--              <li class="list-group-item animated fadeInRight"> <i class="fa fa-user-friends"></i> Followers:-->
-<!--                {{users?.followers}}</li>-->
-
-<!--              <li class="list-group-item animated fadeInRight"> <i class="fa fa-users f0c0"></i> Following:-->
-<!--                {{users?.following}}</li>-->
-
-<!--              <li class="list-group-item animated fadeInRight"> <i class="fa fa-folder-open"></i> Repos:-->
-<!--                {{users?.public_repos}}</li>-->
-
-<!--              <li class="list-group-item animated fadeInRight"> <i class="fa fa-clock pr-1"></i> Joined on:-->
-<!--                {{users?.created_at|date}}</li>-->
-<!--            </ul>-->
-<!--          </div>-->
-<!--        </div>-->
-
-
-
-<!--      </div>-->
-<!--        </div>-->
-
         <div class="card1 col-6 rounded">
-
           <div class="card-body">
-
-
-
-
             <ul class=" card-text list-group list-group-flush">
               <li class="list-group-item animated fadeInRight"> <i class="fa fa-user-friends"></i> Followers:
                 {{users?.followers}}</li>
@@ -77,12 +46,6 @@
 
       </div>
       <hr class="my-4">
-
-
-
-
-
-
     <div class="repos" >
       <h3 class="h3 text-center"><b>REPOSITORIES</b> </h3>
       <div class="row fadeIn card-columns">
@@ -141,7 +104,7 @@
           </div>
           <div class="rounded-bottom lighten-3 text-center pt-3">
             <ul class="list-unstyled list-inline font-small">
-              <a target="_blank" href="{{repo.url}}" class="checkout btn btn-dark "> See Github
+              <a target="_blank" href="{{users?.html_url}}" class="checkout btn btn-dark "> See Github
 
               </a>
             </ul>
