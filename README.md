@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Guyoguyes
 
-##Description
+## Description
 
 A web application built to allow users to search other users and their github repos without having to use github
 
