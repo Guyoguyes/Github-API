@@ -14,6 +14,7 @@ import { GithubProfileComponent } from './component/github-profile/github-profil
 import { RepoComponent } from './component/repo/repo.component';
 import { DateCountPipe } from './pipes/date-count.pipe';
 import { DirectiveDirective } from './directive/directive.directive';
+import { NotFoundComponent } from './component/not-found/not-found.component';
 
 
 
@@ -26,6 +27,7 @@ import { DirectiveDirective } from './directive/directive.directive';
     RepoComponent,
     DateCountPipe,
     DirectiveDirective,
+    NotFoundComponent,
 
 
 
