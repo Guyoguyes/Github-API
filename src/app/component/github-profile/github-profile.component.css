@@ -20,7 +20,7 @@
 .profile-info{
   margin-top: 150px;
   width: 800px;
-  background-color: cadetblue;
+  background-color: rgb(47,79,79);
 }
 .profile-info ul{
   text-decoration: none;
@@ -30,7 +30,7 @@
 }
 
 .card1 {
-  background-color: rgb(55, 187, 173);
+  background-color: rgb(47,79,79);
   height: 20%;
   position: relative;
   top: 30px;
@@ -41,7 +41,7 @@
 .repo {
   position: relative;
   top: 40px;
-  background-color: rgb(55, 187, 173);
+  background-color: rgb(47,79,79);
   width: 20%;
   margin: 5px;
   width: 200px;
